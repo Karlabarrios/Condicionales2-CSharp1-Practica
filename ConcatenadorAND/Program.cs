@@ -8,13 +8,15 @@ namespace Introducción
         {
             int n;
             
-            Console.WriteLine("Ingrese un nro");
+            Console.WriteLine("Ingrese su edad por favor");
             n = int.Parse(Console.ReadLine());
 
-            if(n >= 30 && n <= 50)
-                Console.WriteLine("Ud es millenial");
+            if(n >= 80)
+                Console.WriteLine("Usted pertenece a los boomers");
+            else if(n >= 20 && n <= 40)
+                Console.WriteLine("Usted pertenece a los millenials");
             else
-                Console.WriteLine("O eres gen z o un boomer");
+                Console.WriteLine("Usted pertenece a la gen z");
         }
     }
 }
