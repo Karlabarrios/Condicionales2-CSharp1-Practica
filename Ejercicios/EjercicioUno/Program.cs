@@ -15,14 +15,11 @@ namespace EjercicioUno
 
             if(A > B)
                 resultado = A - B;
-            else{
-                if(A == B)
-                    resultado = A + B;
-                else
-                    resultado = A * B;
-            }
+            else if(A == B)
+                resultado = A + B;
+            else
+                resultado = A * B;
 
-            
             Console.WriteLine("El resultado es: " + resultado);
         }
     }
